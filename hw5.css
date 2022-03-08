@@ -36,6 +36,6 @@ td:last-of-type { border-right: none; }
 .vertical th:first-of-type { border-right: thin solid; }
 
 /*-------- Set borders on Title  --------------------------*/
-title {border-bottom: double; }
+h1 {border-bottom: double; }
 /* --------------------- FONTS ------------------------------*/
 table caption{ font-weight: bold;}
