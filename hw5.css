@@ -1,0 +1,41 @@
+body {background-color: aliceblue;}
+/*-------- Change Style of <ol> and <ul> --------------------------*/
+ul {list-style-type: circle; 
+    background-color: aqua;
+    padding: 20px;}
+ul li {background: #8fc3fa;
+        color: darkblue;
+        margin: 5px;}
+
+ol {list-style-type: upper-roman;
+    background-image:linear-gradient(darkblue,#8fc3fa) ;
+    padding: 20px;}
+ol li {background-color: rgb(123, 187, 247); 
+    color:darkblue;
+margin: 5px; }
+
+/*-------- Set borders on the tables --------------------------*/
+
+table { border-collapse: collapse; }
+
+/* Double bottom border after the first row in a vertical table */
+.vertical tr:first-of-type { border-bottom: double; }
+/* Double right border on header cells in a horizontal table */
+.horizontal th { border-right: double; }
+
+/* thin solid border below each row... */
+
+tr { border-bottom: thin solid; } 
+/* except the last */
+tr:last-of-type { border-bottom: none; } 
+/* thin solid right border on every td... */
+td { border-right: thin solid; }
+/* except the last on each row */
+td:last-of-type { border-right: none; }
+/* Thin right border on the first th cell in a vertical table */
+.vertical th:first-of-type { border-right: thin solid; }
+
+/*-------- Set borders on Title  --------------------------*/
+title {border-bottom: double; }
+/* --------------------- FONTS ------------------------------*/
+table caption{ font-weight: bold;}
